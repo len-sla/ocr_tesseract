@@ -13,7 +13,20 @@ Library is installed from : [Tesseract ](https://github.com/tesseract-ocr/tessda
 ### Results: on the left side there is a picture on the right opned output text file after ocr processing
 
 ![### source-result ](ocr-result-eng.PNG)
+---
 
+### Extra funcions:
+
+To be able retrieve text from video files ffmpeg was used to split file to frames 
+with given diffrence factor when text presentation was changed.
+Once having set of pictures in directory they were OCRed in a batch to text file.
+
+---
+
+![### processing files from folder](frames.PNG)
+---
+
+![### processing files from folder](folder.PNG)
 
 
 ### Technologies
