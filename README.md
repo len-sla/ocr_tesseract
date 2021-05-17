@@ -15,7 +15,7 @@ Library is installed from : [Tesseract ](https://github.com/tesseract-ocr/tessda
 ![### source-result ](ocr-result-eng.PNG)
 ---
 
-### Extra funcions:
+### Additional funcions:
 
 To be able retrieve text from video files ffmpeg was used to split file to frames 
 with given diffrence factor when text presentation was changed.
