@@ -37,7 +37,7 @@ Once having set of pictures in directory they were OCRed in a batch to text file
 
 
 ### Setup
-easiest is to install/update libraries accordnig to install secion in notebook
+Easiest way is to install/update libraries accordnig to install secion in notebook
 
 
 
