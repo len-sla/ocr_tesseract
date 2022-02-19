@@ -27,6 +27,8 @@ Once having set of pictures in directory they were OCRed in a batch to text file
 ---
 
 ![### processing files from folder](folder.PNG)
+  
+  ---
 
 ## Python  make life easier with PDF documents
 
