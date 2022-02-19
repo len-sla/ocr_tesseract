@@ -30,7 +30,7 @@ Once having set of pictures in directory they were OCRed in a batch to text file
   
   ---
 
-## Python  make life easier with PDF documents
+## Docker and Python  make life easier with PDF documents
 
 
 > <p>There are couple of useful libraries when you want to take out text only or text tables and their position on the page<br>
