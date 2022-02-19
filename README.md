@@ -116,5 +116,5 @@ Easiest way is to install/update libraries accordnig to install secion in notebo
 
 
 ### Contact
-Created by: _len.sla_
+Created by: _lencz.sla@gmail.com_
 
