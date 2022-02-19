@@ -37,8 +37,8 @@ Once having set of pictures in directory they were OCRed in a batch to text file
 Simplest is PyPDF2.
 another pdfminer
 and last PyMuPDF  which I like most all were suggested by [DIDA ](https://dida.do/de/blog/text-aus-pdf-dateien-extrahieren ) team in their tools review. <br>
-PyPDF2 and pdfminer were installed without problems though PyMuPDF was really stubborn especially if you ws not willing to do mess in your python environment uner Ubuntu 18. 
-As usual with help docker arrived and one of the python slim images as a base. Content of Dockerfile_pdf_tools file below
+PyPDF2 and pdfminer were installed without problems though PyMuPDF was really stubborn especially if you ws not willing to do mess in your python environment under Ubuntu 18. 
+Docker helped and one of the python slim images as a base. Content of Dockerfile_pdf_tools file o create image  is below
 
 ```
 FROM python:3.9.7-slim-bullseye 
@@ -54,7 +54,7 @@ WORKDIR /data
 
 RUN pip install pymupdf PyPDF2 pdfminer
 ```
-then image was build  and executed  with excelent result
+then image was build  and executed  so you have you are in bash with required libraries
 
 ```
 docker build  -f Dockerfile_pdf_tools -t processpdf:02
@@ -64,7 +64,7 @@ docker build  -f Dockerfile_pdf_tools -t processpdf:02
 ```
 docker container run -it --name pdf_extracting  -v /home/lubuntu/process_pdf:/data processpdf:02 bash
 ```
-Contentent of pymupdf.py:
+Contentent of pymupdf.py where example pdf file was given :
 
 
 ```
@@ -102,9 +102,10 @@ root@7f0cbc69d03b:/data#
 ```
 
 ### Technologies
-* Python, 
+* Python, PyPDF2. pdfminer, PyMuPDF
 * LSTM
 * OCR
+* Docker
 
 
 
